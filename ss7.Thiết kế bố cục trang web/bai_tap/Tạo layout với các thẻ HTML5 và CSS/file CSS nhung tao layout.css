@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.9em;
+}
+
+header,footer{
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+nav ul{
+    padding: 0px;
+}
+nav ul,li{
+    display: inline;
+    margin: 0px;
+}
