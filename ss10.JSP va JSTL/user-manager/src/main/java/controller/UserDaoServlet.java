@@ -33,9 +33,13 @@ public class UserDaoServlet extends HttpServlet {
                 //
                 break;
             case "delete":
-                //
+                delete(request,response);
                 break;
         }
+    }
+
+    private void delete(HttpServletRequest request, HttpServletResponse response) {
+
     }
 
     private void insertUser(HttpServletRequest request, HttpServletResponse response) {
